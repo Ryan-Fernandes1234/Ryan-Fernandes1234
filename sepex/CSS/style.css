@@ -1,0 +1,18 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botao {
+    border-radius: 5px;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #000;
+}
+.botao:hover {
+    transform:scale(1.1);
+    transition:all 2s;
+    color: rgb(47, 230, 144);
+    background-color: brown;
+    box-shadow: 2px 5px 5px rgb(44, 162, 192);
+}
